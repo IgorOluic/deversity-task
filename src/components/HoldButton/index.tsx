@@ -11,7 +11,7 @@ interface HoldButtonProps {
   stopCondition?: boolean;
 }
 
-const HoldButton: React.FC<HoldButtonProps> = ({
+const HoldButton = ({
   onClick,
   onHold,
   children,
@@ -19,7 +19,7 @@ const HoldButton: React.FC<HoldButtonProps> = ({
   holdIntervalInMS,
   disabled,
   stopCondition,
-}) => {
+}: HoldButtonProps) => {
   const holdTimeoutRef = useRef<NodeJS.Timeout | null>(null);
   const holdIntervalRef = useRef<NodeJS.Timeout | null>(null);
 

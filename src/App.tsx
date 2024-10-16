@@ -1,10 +1,10 @@
 import "./App.css";
-import MarblesWithLocalState from "./components/MarblesWithLocalState";
+import Marbles from "./components/Marbles";
 
 function App() {
   return (
     <div className="App">
-      <MarblesWithLocalState />
+      <Marbles />
     </div>
   );
 }

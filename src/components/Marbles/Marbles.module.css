@@ -8,6 +8,11 @@
   border-bottom: 1px solid gray;
 }
 
-.add-box-button {
+.delete-all-boxes-wrapper {
+  padding-top: 30px;
+  border-top: 1px solid gray;
+}
+
+.box-button {
   cursor: pointer;
 }
