@@ -1,0 +1,13 @@
+.marbles-wrapper {
+  max-width: 500px;
+  margin: 0px auto;
+}
+
+.add-box-wrapper {
+  padding-bottom: 30px;
+  border-bottom: 1px solid gray;
+}
+
+.add-box-button {
+  cursor: pointer;
+}
